@@ -1,0 +1,180 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #345B63;
+}
+
+
+/* 
+
+Part 1
+
+*/
+.part-class{
+    height: auto;
+    width: 100%;
+    color: #D4ECDD;
+    font-family: 'Lucida Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.part-class:nth-child(odd){
+    background-color: #152D35;
+}
+
+.part-class h2:nth-child(1){
+    margin: 0 0 50px 0;
+}
+
+#quote-box,
+#converter-div{
+    border: 5px solid white;
+    background-color: darkolivegreen;
+    padding: 40px;
+    margin: 0 0 40px 0;
+}
+
+.part-class div:nth-child(2) p:nth-child(1){
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.part-class div:nth-child(2) p:nth-child(2){
+    font-size: 16px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.button-class {
+    border: 1px solid black; 
+    border-radius: 3px;
+    display: inline-block;
+    font-size: large;
+    padding: 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-class:nth-child(1){
+    background-color: rgb(240, 133, 133);
+}
+.button-class:nth-child(2){
+    background-color: #D4ECDD;
+}
+.button-class:nth-child(4){
+    background-color: rgb(72, 170, 146);
+}
+.button-class:nth-child(5){
+    background-color: burlywood;
+}
+
+
+/* 
+
+Part 1 1.2
+
+*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#converter-div{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+
+}
+
+#converter-div button{
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    background-color: #D4ECDD;
+    color: #345B63;
+    border: none;
+    margin: 0 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+#converter-div button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#unit-input{
+    height: 32px;
+    margin: 0 20px;
+}
+
+
+/* 
+
+Part 02
+
+*/
+
+#input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input{
+    display: flex;
+    align-items: center;
+}
+#input input{
+    margin: 0 20px;
+    width: 350px;
+    height: 40px;
+}
+
+.input-div{
+    display: flex;
+
+    margin: 20px 0;
+    width: 400px;
+}
+
+.input-div p{
+    font-size: 18px !important;
+    width: 50%;
+}
+
+/* 
+
+part 03
+
+*/
+
+#magic-div textarea{
+    height: 600px;
+    width: 600px;
+}
+
+#magic-button button{
+    width: 100px;
+    height: 40px;
+    background-color: #D4ECDD;
+    border: none;
+    color: #345B63;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}

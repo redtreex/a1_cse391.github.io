@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>CSE391</title>
+</head>
+
+<body>
+    <div id="part-1" class="part-class">
+        <h2>Part 1 (1.1)</h2>
+
+        <div id="quote-box">
+            <p id="quote">The greatest glory in living lies not in never falling, but in rising every time we fall</p>
+            <p id="quote-people">-Nelson Mandela</p>
+        </div>
+        
+        <div>
+            <button class="button-class" onclick="btn_pink()"></button>
+            <button class="button-class" onclick="btn_light_green()"></button>
+            <br>
+            <button class="button-class" onclick="btn_dark_green()"></button>
+            <button class="button-class" onclick="btn_brown()"></button>
+        </div>
+    </div>
+
+    <div id="part-2" class="part-class">
+        <h2>Part 1 (1.2)</h2>
+
+        <div id="converter-div">
+            <label for="unit-input"><input type="number" id="unit-input"></label>
+            <select name="Unit" id="select-menu">
+                <option value="1">Kg to lbs</option>
+                <option value="2">lbs. to Kg</option>
+            </select>
+            <button id="convert-btn" onclick="converter_btn()">Convert</button>
+            <p id="convert-result"></p>
+        </div>
+
+    </div>
+
+    <div id="part-3" class="part-class">
+        <h2>Part 2</h2>
+
+        <div id="input-section">
+
+            <div id="input">
+                <p class="label">Input series of number: </p>
+                <input type="text" id="series-number-input" onkeyup="part_02_event()">
+            </div>
+
+            <div class="input-div">
+                <p class="label">Max: </p>
+                <p id="max"></p>
+            </div>
+
+            <div class="input-div">
+                <p class="label">Min: </p>
+                <p id="min"></p>
+            </div>
+
+            <div class="input-div">
+                <p class="label">Sum: </p>
+                <p id="sum"></p>
+            </div>
+
+            <div class="input-div">
+                <p class="label">Average: </p>
+                <p id="avg"></p>
+            </div>
+
+            <div class="input-div">
+                <p class="label">Reverse: </p>
+                <p id="reverse"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="part-4" class="part-class">
+        <h2>Part 3</h2>
+
+        <div id="magic-div">
+            <textarea name="" id="text-area" cols="30" rows="10"></textarea>
+        </div>
+
+        <div id="magic-button">
+            <button onclick="clear_it()">Clear it</button>
+            <button onclick="capitalize()">Capitalize</button>
+            <button onclick="sort_it()">Sort</button>
+            <button onclick="reberse()">Reverse</button>
+            <button onclick="strip_it()">Strip Blank</button>
+            <button onclick="add_digit()">Add Numbers</button>
+            <button onclick="shuffle()">Shuffle</button>
+        </div>
+    </div>
+</body>
+ 
+</html>
